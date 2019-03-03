@@ -42,13 +42,13 @@ train: True
 # Models will be outputted into log_dir, One model will be output
 # for each resolution, labeled by output size, and each stage of 
 # training (interpolation / stable).
-log_dir: /output/models
+log_dir: /models
 model_save_interval_steps: 1000
 
 # Samples of the latent space, as well as real images,
 # will be saved periodically during training, and output 
 # into the samples_dir directory, and model_sample_interval_steps.
-samples_dir: /output/samples4
+samples_dir: /samples
 model_sample_interval_steps: 400
 
 # -------------------------------------
@@ -110,7 +110,7 @@ inference_model_directory: /home/shiz/Documents/SHIZ_CODE_ML/myDeepZine/shiz_dat
 pretrained_model: False
 
 # Output directory for inference and interpolation runs.
-inference_output_directory: /output/interpolation_images
+inference_output_directory: /interpolation_images
 
 # Set to True if you want to run simple inference on a model.
 inference: False
